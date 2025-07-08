@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  font-weight: 400;
+  color: #232336;
+  background: #f7f7fb;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body {
+  font-family: 'Inter', system-ui, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #232336;
+  background: #f7f7fb;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+/* Заголовки — Podkova */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Podkova', serif;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+/* Кнопки — Rubik Dirt */
+.MuiButton-root {
+  font-family: 'Rubik Dirt', cursive !important;
+  font-size: 1.08rem;
+  letter-spacing: 0.02em;
+}
+
+/* Явно задаём шрифт для навигационной панели и всех её элементов */
+.MuiAppBar-root, .MuiToolbar-root, .MuiButton-root, .MuiTypography-root, .MuiMenuItem-root, .MuiListItemText-root {
+  font-family: 'Inter', system-ui, Arial, sans-serif !important;
+  font-size: 1.09rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.MuiButton-outlinedSecondary {
+  font-size: 0.98rem !important;
+}
